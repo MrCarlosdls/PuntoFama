@@ -1,6 +1,6 @@
 ﻿  Main.cpp
 c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(38): warning C4018: '<': no coinciden signed/unsigned
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(40): warning C4018: '<': no coinciden signed/unsigned
+c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(49): warning C4018: '<': no coinciden signed/unsigned
+c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(51): warning C4018: '<': no coinciden signed/unsigned
   Fama.vcxproj -> C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.exe
   Fama.vcxproj -> C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.pdb (Full PDB)

@@ -6,6 +6,7 @@
 using namespace std;
 
 bool checkDigits(string param);
+void checkEquality(string random, string valor);
 
 int main()
 {
@@ -16,7 +17,7 @@ int main()
 	
 	do
 	{
-		int num = rand() % (9999 - 1000);
+		int num = 1000 + rand() % 9999;
 		cadena = to_string(num);
 		x = checkDigits(cadena);
 		if (x == true)
@@ -26,6 +27,17 @@ int main()
 		}
 	} 
 	while (x != true);
+
+	string valor;
+	int oportunidad = 1;
+	do
+	{
+		cout << "Digite el valor" << endl;
+		cin >> valor;
+
+		oportunidad++;
+	} 
+	while (valor != cadena && oportunidad != 10);
 
 	system("pause");
 	return 0;
@@ -46,4 +58,9 @@ bool checkDigits(string param)
 		}
 	}
 	return true;
+}
+
+void checkEquality(string random, string valor)
+{
+
 }
