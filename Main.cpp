@@ -12,19 +12,22 @@ int main()
 	srand(time(NULL));
 
 	string cadena;
-	int num = rand() % (9999 - 1000);
+	bool x;
+	
+	do
+	{
+		int num = rand() % (9999 - 1000);
+		cadena = to_string(num);
+		x = checkDigits(cadena);
+		if (x == true)
+		{
+			cout << "Paso" << endl;
+			cout << cadena << endl;
+		}
+	} 
+	while (x != true);
 
-	cadena = to_string(num);
-
-	cout << cadena << endl;
-
-	bool x = checkDigits(cadena);
-	if (x == false)
-		cout << "dos se repiten " << endl;
-	else
-		cout << "no se repiten" << endl;
-		
-
+	system("pause");
 	return 0;
 }
 
