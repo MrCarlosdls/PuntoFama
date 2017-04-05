@@ -1,0 +1,7 @@
+﻿  Main.cpp
+c:\users\cespe\desktop\proyectos c++\fama\main.cpp(16): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\cespe\desktop\proyectos c++\fama\main.cpp(68): warning C4018: '<': no coinciden signed/unsigned
+c:\users\cespe\desktop\proyectos c++\fama\main.cpp(70): warning C4018: '<': no coinciden signed/unsigned
+c:\users\cespe\desktop\proyectos c++\fama\main.cpp(86): warning C4018: '<': no coinciden signed/unsigned
+  Fama.vcxproj -> C:\Users\cespe\Desktop\Proyectos C++\Fama\Debug\Fama.exe
+  Fama.vcxproj -> C:\Users\cespe\Desktop\Proyectos C++\Fama\Debug\Fama.pdb (Full PDB)
