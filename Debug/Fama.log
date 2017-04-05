@@ -1,8 +1,2 @@
-﻿  Main.cpp
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(66): warning C4018: '<': no coinciden signed/unsigned
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(68): warning C4018: '<': no coinciden signed/unsigned
-c:\users\manuel fco sanchez c\desktop\puntofama\main.cpp(84): warning C4018: '<': no coinciden signed/unsigned
-  LINK : no se encontró C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
-  Fama.vcxproj -> C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.exe
+﻿  Fama.vcxproj -> C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.exe
   Fama.vcxproj -> C:\Users\Manuel Fco Sanchez C\Desktop\PuntoFama\Debug\Fama.pdb (Full PDB)

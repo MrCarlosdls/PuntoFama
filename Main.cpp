@@ -6,8 +6,8 @@
 using namespace std;
 
 bool checkDigits(string param); //Funcion que me chequea si el numero se repite o no
-void checkEquality(string random, string valor); //Funcion que me dice si digito un valor que esta dentro de mi
-												 //valor aleatorio
+int checkEquality(string random, string valor); //Funcion que me dice si digito un valor que esta dentro de mi
+												//valor aleatorio
 int main()
 {
 	//Declaraciones de variables
@@ -17,6 +17,7 @@ int main()
 	string valorString;
 	int oportunidad = 0;
 	int valor;
+	int CountF = 0;
 
 	//Aqui me genera los numeros aleatorios entre 1000 y 9999
 	do
@@ -44,7 +45,13 @@ int main()
 				system("cls");
 			}
 		} while (x != true || valor < 1000 || valor > 9999);
-		checkEquality(cadena, valorString);
+		CountF = checkEquality(cadena, valorString);
+
+		if (CountF == 4)
+		{
+			system("cls");
+			cout << "YOU WIN!!!!" << endl;
+		}
 
 		oportunidad++;
 	} while (valorString != cadena && oportunidad <= 9);
@@ -76,10 +83,10 @@ bool checkDigits(string param)
 	return true;
 }
 
-void checkEquality(string random, string valor)
+int checkEquality(string random, string valor)
 {
 	int x = 0;
-	int CountF = 1;
+	int CountF = 0;
 
 	for (int i = 0; i < random.length(); i++)
 	{
@@ -110,13 +117,8 @@ void checkEquality(string random, string valor)
 				cout << "F" << " ";
 				CountF++;
 			}
-
-			if (CountF == 4)
-			{
-				system("cls");
-				cout << "YOU WIN!!!!" << endl;
-			}
 		}
 	}
 	cout << "\n" << endl;
+	return CountF;
 }
